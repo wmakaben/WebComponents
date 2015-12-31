@@ -1,0 +1,113 @@
+#project-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #D8D8D8;
+}
+
+#title{
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 30px;
+	font-size: 25px;
+	padding: 5px 5px 5px 20px;
+
+	background: #134E5E; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #134E5E , #71B280); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #134E5E , #71B280); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */               
+    color: #D8D8D8;
+}
+
+#project-list{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+
+	background: #134E5E; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #134E5E , #71B280); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #134E5E , #71B280); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+.project-container{
+	width: 90%;
+	height: auto;
+	background: #fff;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.project-info{
+	width: 100%;
+	height: 180px;
+	padding: 10px 10px 0px 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.project-icon{
+	width: 200px;
+	height: 140px;
+	margin: 5px 10px 5px 5px;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.project-title{
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.container-expand{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 18px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+
+.container-expand:hover{
+	background-color: lightgrey;
+}
+
+@media screen and (max-width: 470px){
+	.project-title{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.project-info{
+		height: 180px;
+	}
+	.project-icon{
+		clear: both;
+		margin: 5px auto;
+		float: none;
+	}
+	.project-title{
+		float: none;
+		text-align: center;
+	}
+	.project-info{
+		font-size: 13px;
+	}
+}
+
+
+
+
+
+
+
