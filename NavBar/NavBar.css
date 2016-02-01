@@ -22,8 +22,9 @@
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	cursor: pointer;
-	background-image: url(../img/hamburger.png);
-	background-size: contain;
+	text-align: center;
+	color: white;
+	font-size: 30px;
 }
 #nav-button:hover{
 	background-color: #19c589;
