@@ -1,0 +1,104 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#scroll-back{
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background: lightgrey;
+	overflow: auto;
+
+	
+	z-index: 10;
+	opacity: 0;
+	
+}
+/*
+#scroll-back::-webkit-scrollbar { 
+    display: none; 
+}*/
+
+#scrollable{
+	position: relative;
+	width: 100%;
+	height: 200%;
+}
+
+#slot-machine{
+	margin: 150px auto;
+    width: 600px;
+    height: 400px;
+    -webkit-perspective: 800;
+	/*
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+
+	width: 600px;
+
+	margin: 0 auto;
+	z-index: 1;
+
+	border: 1px black solid;
+
+	-webkit-perspective: 800;
+	*/
+}
+
+#rotator{
+	position: absolute;
+	top: 50%;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	-webkit-transform-style: preserve-3d;
+}
+
+#ring{
+	margin:	0 auto;
+	height: 110px;
+	width: 600px;
+	-webkit-transform-style: preserve-3d;
+}
+
+#ring > :nth-child(odd) {
+    background-color: lightgreen;
+}
+
+#ring > :nth-child(even) {
+    background-color: lightblue;
+}
+
+.slot{
+	position: absolute;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+	opacity: 0.8;
+	color: rgba(0,0,0,0.9);
+    -webkit-border-radius: 10px;
+    text-align: center;
+    border: 1px black solid;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+/*
+#rotator{
+	width: 600px;
+	height: 400px;
+}
+
+#ring{
+	
+	background: lightgrey;
+	border: 1px black solid;
+}
+
+.slot{
+	width: 100%;
+	margin: 5px 0 5px 0;
+	background: #fff;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	box-sizing: border-box;
+}*/
