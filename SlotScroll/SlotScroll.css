@@ -71,14 +71,14 @@ body{
 .slot{
 	position: absolute;
 	left: 250px;
-	width: 100px;
-	height: 100px;
+	width: 115px;
+	height: 115px;
 	opacity: 0.8;
 	color: rgba(0,0,0,0.9);
     -webkit-border-radius: 10px;
     text-align: center;
     border: 1px black solid;
-    padding-top: 40px;
+    padding-top: 50px;
     box-sizing: border-box;
 }
 

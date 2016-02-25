@@ -29,6 +29,7 @@ $(document).ready(function(){
 		});
 
 		// Update lastScroll value
+		console.log(sTop);
 		lastScroll = sTop;
 	});
 
@@ -44,44 +45,3 @@ function initRing(){
 		$('#ring').append(slot);
 	}
 }
-
-
-
-
-
-
-
-/*
-initRing($('#ring'));
-
-$('#ring').scroll(function(){
-	maxScroll = $(this).prop('scrollHeight') - $(this).innerHeight();
-    if($(this).scrollTop() == maxScroll){
-    	$(this).scrollTop(0);
-    }
-    
-    //else if($(this).scrollTop() == 0){
-    //	$(this).scrollTop(maxScroll);
-    //}
-});
-*/
-/*
-function initRing(ring){
-	ringHeight = ring.innerHeight();
-	slotHeight = ring.find('.slot').first().innerHeight();
-	slotNum = Math.ceil(ringHeight/slotHeight);
-
-	//last = ring.find('.slot').last().clone();
-	//first = ring.find('.slot').first().clone();
-	//ring.append(first);
-	//ring.prepend(last);
-
-	//ring.scrollTop(last.innerHeight()+5);
-}
-*/
-/*
-keep track of scroll direction
-jump to top/bottom based on direction
-
-pad ring with clones on top and bottom
-*/
