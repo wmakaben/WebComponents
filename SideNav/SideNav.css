@@ -1,0 +1,27 @@
+#nav{
+	position: absolute;
+	top: 0; bottom: 0; left: -325px;
+	width: 400px;
+
+}
+
+#nav-open{
+	position: absolute;
+	top: 0; bottom: 0; right: 0;
+	width: 75px;
+
+	background: lightgrey;
+}
+
+#nav-menu{
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 75px;
+	z-index: 1;
+	
+	background: black;
+}
+
+#page-content{
+	text-align: center;
+	padding-top: 100px;
+}
