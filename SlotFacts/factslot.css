@@ -1,0 +1,55 @@
+
+#slot{
+	position: relative;
+	width: 75%;
+	max-width: 800px;
+	min-width: 270px;
+	height: 400px;
+	
+	background: #181818;
+	border: 1px black solid;
+
+
+	padding-top: 100px;
+}
+
+
+#facts{
+	position: relative;
+	width: 75%;
+	height: 100px;
+	overflow: auto;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#facts::-webkit-scrollbar { 
+    display: none; 
+}
+
+.fact{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	box-sizing: border-box;
+	border: 1px black solid;
+	border-top: none;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.fact:first-child{
+	border-top: 1px black solid;
+}
+
+
+
+.fact-text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
+#spin-button{
+	margin: 0 auto;
+}

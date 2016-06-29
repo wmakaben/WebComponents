@@ -7,11 +7,11 @@ $(document).ready(function(){
 			}, 300);
 			$('#nav').stop().delay(200).animate({
 				left: 0
-			}, 500);
+			}, 400);
 		}, function(){
 			$('#nav').stop().animate({
 				left: -325
-			}, 500);
+			}, 400);
 			$('#nav-menu').stop().delay(300).animate({
 				right: 75
 			});
